@@ -68,8 +68,9 @@ def histogramCash(dfDataTrips):
         else:
             date_search = '2009-'+str(date_m)
 
-        count_trips = dfCashTrips.query(f'pickup_datetime.str.contains("{date_search}")').count()
-        list_count_trips.append(count_trips[0])
+        count_trips = dfCashTrips.query(f'pickup_datetime.str.contains("{date_search}")')
+        count_trips = np.count_nonzero(count_trips['payment_type'])
+        list_count_trips.append(count_trips)
         date_m += 1
 
     df_count_cash_trips['Total_trips'] = list_count_trips
