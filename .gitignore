@@ -1,0 +1,6 @@
+
+*.py
+*.json
+technical_test_-_data_engineering.pdf
+dataSprintTest.py
+__pycache__/functions.cpython-39.pyc
