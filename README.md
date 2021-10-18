@@ -10,7 +10,7 @@ To this code run perfectly, it's easier run it in Anaconda Jupyter Notebook, bec
 The only package that you will need install is the Folium. --The command to install is in the first cell from notebook.
 
 Files
-   -- There are five files needed to run the code, and two is already in the folder 'dataFiles'
+   -- There are six files needed to run the code, and two is already in the folder 'dataFiles'
       ----
       data-vendor_lookup-csv.csv
       data-payment_lookup-csv.csv
