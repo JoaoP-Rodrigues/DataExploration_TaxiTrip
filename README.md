@@ -16,6 +16,7 @@ Files
       data-payment_lookup-csv.csv
       ----
       The others, you will need download. (The link of files is in the 'dataFiles/files_address.txt')
+      This file aren't in correct JSON format, so, you will need add one bracket in start and other in end of file, besides inserting a comma in each line final.
       
    -- And, of course, you will need run the 'data_sprint_test.ipynb' file.
    
@@ -32,7 +33,7 @@ To Run
    
    In the end of notebook, will be executed to function of maps, using the Folium package.
    My computer not is a greate PC, so, I put only 1,000 lines of trips (equal 2,000 markers)
-   If your PC is best, send the entire DataFrame
+   If your PC is great, send the entire DataFrame. Good luck!
    
 ____________________________________________________________________________
 The Charts
