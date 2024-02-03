@@ -1,8 +1,7 @@
-# dataSprint Teste
- Repository from test to conquer a job in Data Sprints
+# Data Exploration - Taxi Trip - New York
 
 # This is a project with the objective of Exploratory Data Analysis 
-The DataBase for this project are datas from taxi trips in the New York city in 2009 to 2012 years.
+The DataBase for this project are datas from taxi trips in the New York city from 2009 to 2012 years.
 
 ___________________________________________________________________________
 
@@ -18,7 +17,7 @@ Files
       The others, you will need download. (The link of files is in the 'dataFiles/files_address.txt')
       This file aren't in correct JSON format, so, you will need add one bracket in start and other in end of file, besides inserting a comma in each line final.
       
-   -- And, of course, you will need run the 'data_sprint_test.ipynb' file.
+   -- And, of course, you will need run the 'data_cab_trip.ipynb' file.
    
 ____________________________________________________________________________  
 To Run
@@ -33,7 +32,7 @@ To Run
    
    In the end of notebook, will be executed to function of maps, using the Folium package.
    My computer not is a greate PC, so, I put only 1,000 lines of trips (equal 2,000 markers)
-   If your PC is great, send the entire DataFrame. Good luck!
+   If your PC is a top of the line, send the entire DataFrame. Good luck!
    
 ____________________________________________________________________________
 The Charts
